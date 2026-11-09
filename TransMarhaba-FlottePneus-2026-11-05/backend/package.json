@@ -1,0 +1,25 @@
+{
+  "name": "backend-pneux-camion",
+  "version": "1.0.0",
+  "description": "Backend API REST pour la gestion des camions et suivi kilométrique des pneus",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "jest --runInBand",
+    "seed": "node src/config/seedRunner.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.12.0",
+    "projet-pneux-camion": "file:..",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
